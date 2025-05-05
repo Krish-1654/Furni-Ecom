@@ -7,10 +7,10 @@ const DashBoardSec1 = () => {
     <div className="container-fluid">
         <div className="">
             <div className="row">
-                <DashBoardSec1Card Title={"Product"} Count={"Total Product : 3"} Visit={"Product List"}/>
-                <DashBoardSec1Card Title={"Orders"} Count={"Total Orders : 3"} Visit={"Order List"}/>
-                <DashBoardSec1Card Title={"Collection"} Count={"Total Collection : 3"} Visit={"Collection View"}/> 
-                <DashBoardSec1Card Title={"Users"} Count={"Total Users : 3"} Visit={"User List"}/>
+                <DashBoardSec1Card Title={"Product"} Count={"Total Product : 3"} Visit={"Product List"} Path={"/AdminProductList"}/>
+                <DashBoardSec1Card Title={"Orders"} Count={"Total Orders : 3"} Visit={"Order List"} Path={"/AdminOrderList"}/>
+                <DashBoardSec1Card Title={"Collection"} Count={"Total Collection : 3"} Visit={"Collection View"} Path={"/AdminProductList"}/> 
+                <DashBoardSec1Card Title={"Users"} Count={"Total Users : 3"} Visit={"User List"} Path={"/AdminUserList"}/>
             </div>
         </div>
     </div>

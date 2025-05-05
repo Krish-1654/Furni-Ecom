@@ -6,9 +6,7 @@ const AdminDashBoard = () => {
   return (
     <>
       <Layout>
-        <div className="container-fluid bg-light" style={{height:"89vh"}}>
-          <DashBoardSec1 />
-        </div>
+        <DashBoardSec1 />
       </Layout>
     </>
   )

@@ -5,7 +5,11 @@ const ProductList = () => {
     return (
         <>
             <Layout>
-                ProductList
+                <div className="container-fluid">
+                    <div className="container">
+                        
+                    </div>
+                </div>
             </Layout>
         </>
     )
