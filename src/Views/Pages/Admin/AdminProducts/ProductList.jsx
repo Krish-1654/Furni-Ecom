@@ -17,8 +17,8 @@ const ProductList = () => {
                                 <p className='m-0 h5 fw-bolder'>Products</p>
                             </div>
                             <div className="col-6 align-content-center text-end">
-                                <button className='btn btn-outline-success fw-bold'><span className='d-md-inline-block d-none' data-bs-toggle="modal" data-bs-target="#exampleModal">Add Products</span> <span><IoAddCircleSharp /></span></button>
-                                <ProductModal/>
+                                <button className='btn btn-outline-success fw-bold' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span className='d-md-inline-block d-none'>Add Products</span> <span><IoAddCircleSharp /></span></button>
+                                <ProductModal />
                             </div>
                         </div>
                         <div className="row">
@@ -34,7 +34,7 @@ const ProductList = () => {
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tbody className='table-light'>
+                                        <tbody className='table-light fw-bold'>
                                             <tr>
                                                 <td>1</td>
                                                 <td>
