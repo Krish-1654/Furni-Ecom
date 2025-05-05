@@ -41,6 +41,22 @@ const AdminNavBar = () => {
                                         </Link>
                                     </li>
                                 </ul>
+
+                                <ul className='navbar-nav ms-auto mb-2 mb-lg-0 gap-5'>
+                                    <li className='nav-item dropdown'>
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.theanimedaily.com%2Fwp-content%2Fuploads%2F2022%2F07%2Fsolo-leveling-first-750x417.jpg&f=1&nofb=1&ipt=6b3289b38771d67813e90b5b4fe1bc9a83be909859fecb6130b9bb594b2a8f3c" className='rounded-3' style={{maxWidth:"60px"}} alt="" />
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-end mt-2 pt-2 bg-light">
+                                            <li>
+                                                <Link to={""} className='nav-link dropdown-item text-black'>Profile</Link>
+                                            </li>
+                                            <li>
+                                                <Link to={"/"} className='nav-link dropdown-item text-black'>Log Out</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                             {/* <ul class="nav ms-auto mb-2 mb-lg-0 gap-4 me-4 d-lg-none d-flex">
                                 <li class="nav-item">

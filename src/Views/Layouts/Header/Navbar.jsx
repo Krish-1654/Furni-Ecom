@@ -10,7 +10,11 @@ const Navbar = () => {
         <div className="container">
           <nav class="navbar navbar-expand-lg navbar-dark py-3 fw-bold">
             <div class="container-fluid">
-              <a class="navbar-brand fs-3 " href="#">Furni.</a>
+              <Link to={"/AdminLogin"} className='navbar-brand fs-3'>
+                {/* <a class="navbar-brand fs-3 " href="#"> */}
+                Furni.
+                {/* </a> */}
+              </Link>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
